@@ -1,5 +1,5 @@
 * {
-    padding: 0%;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -11,10 +11,10 @@ body {
 }
 
 .container {
-    background: #ffffff;
+    background: #fdfdfd;
     width: 400px;
     padding: 35px;
-    margin: 100px;
+    margin: 100px auto;
     border-radius: 10px;
     box-shadow: 15px 30px 35px rgba(0, 0, 0, 0.1);
 }
@@ -91,11 +91,17 @@ button {
 }
 
 #flip-button {
-    background: #053469;
+    background: #694105;
     color: white;
 }
 
+#flip-button:disabled{
+    background: #e1e0ee;
+    border-color: #e1e0ee;
+    color: #101020;
+}
+
 #reset-button {
-    background: #053469;
+    background: #e2b356;
     color: white;  
 }
